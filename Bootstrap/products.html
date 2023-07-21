@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/Images/th__1_-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <title>E-Commerce Site</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg"
+      style="background-color: rgb(13, 13, 96); padding: 20px 0"
+    >
+      <!-- Navbar content -->
+      <div class="container-fluid">
+        <a
+          class="navbar-brand text-uppercase font-weight-bold text-warning"
+          style="font-weight: bold"
+          href="#"
+          ><img
+            src="/Images/cart.png"
+            width="30px"
+            height="30px"
+            alt=""
+          />E-Commerce Store</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-menus">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn btn-outline-success login" formaction="/login.html" type="submit">
+              Login
+            </button>
+            <button
+              class="btn btn-outline-success login register"
+              formaction="/register.html"
+              type="submit"
+            >
+              Register
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <h1 class="product">Our Recent Products</h1>
+    <!-- Cards -->
+    <div class="cards">
+      <span>
+        <div class="card" style="width: 18rem">
+          <img
+            src="Images/pro1.png"
+            height="200px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Smart Watch</h5>
+            <h6>4,999 Rs</h6>
+            <p class="card-text">
+              Our Smart Watch combines style, functionality, and cutting-edge
+              technology to enhance your daily life. With its sleek design and
+              advanced features, it's more than just a timepiece.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="card" style="width: 18rem">
+          <img
+            src="Images/pro2.png"
+            height="200px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Iphone</h5>
+            <h6>350,999 Rs</h6>
+            <p class="card-text">
+              The iPhone is a revolutionary smartphone that has redefined the
+              way we communicate, work, and stay entertained. Packed with
+              powerful features and a sleek design.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="card" style="width: 18rem" a>
+          <img
+            src="Images/pro3.png"
+            height="200px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Laptop</h5>
+            <h6>130,000 Rs</h6>
+            <p class="card-text">
+              Our laptops are designed to empower you with the ultimate
+              computing experience, whether you're working, studying, or
+              enjoying entertainment on the go. Combining sleek design.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="card" style="width: 18rem">
+          <img
+            src="Images/pro4.png"
+            height="200px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dress</h5>
+            <h6>7,999 Rs</h6>
+            <p class="card-text">
+              Our dress coat is the epitome of timeless elegance and
+              sophisticated style. Crafted with meticulous attention to detail,
+              it is designed to elevate your formal attire and make a lasting
+              impression.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="card" style="width: 18rem">
+          <img
+            src="Images/Pro5.jpg"
+            height="200px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Water Bottle</h5>
+            <h6>1,999 Rs</h6>
+            <p class="card-text">
+              Stay hydrated on the go with our high-quality water bottle.
+              Designed for convenience and sustainability, it is the perfect
+              companion for your active lifestyle.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="card" style="width: 18rem">
+          <img
+            src="Images/pro6.png"
+            height="178px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Electric Fan</h5>
+            <h6>3,999 Rs</h6>
+            <p class="card-text">
+              Beat the heat and stay cool with our powerful and efficient
+              electric fan. Designed to provide refreshing airflow, it is the
+              perfect solution for hot summer days and stuffy environments.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="card" style="width: 18rem">
+          <img
+            src="Images/pro7.png"
+            height="203px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Bag</h5>
+            <h6>15,99 Rs</h6>
+            <p class="card-text">
+              Discover the perfect blend of style, functionality, and durability
+              with our versatile bags. Designed to suit your everyday needs, our
+              bags are crafted with meticulous.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+      <span>
+        <div class="card" style="width: 18rem">
+          <img
+            src="Images/pant.png"
+            height="178px"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Pant</h5>
+            <h6>1,999 Rs</h6>
+            <p class="card-text">
+              Elevate your wardrobe with our stylish and comfortable pants.
+              Designed with a perfect blend of fashion and functionality, our
+              pants offer versatility for both casual and formal occasions.
+            </p>
+            <a href="#" class="btn btn-primary">Buy Now</a>
+          </div>
+        </div>
+      </span>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pt-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">
+              E-Commerce Store
+            </h5>
+            <p>
+              At Our Ecommerce Store, we are passionate about providing
+              exceptional products and an unparalleled shopping experience. We
+              strive to offer a curated selection of high-quality items that
+              meet the diverse needs and tastes of our valued customers.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Links</h5>
+            <p>
+                <a href="index.html" class="text-white" style="text-decoration: none;">Home</a>
+            </p>
+            <p>
+                <a href="/products.html" class="text-white" style="text-decoration: none;">Produts</a>
+            </p>
+            <p>
+                <a href="/cart.html" class="text-white" style="text-decoration: none;">Cart</a>
+            </p>
+            <p>
+                <a href="/contact.html" class="text-white" style="text-decoration: none;">Contact Us</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Useful Links</h5>
+            <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Facebook</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Instagram</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration: none;">Twitter</a>
+            </p>
+            <p>
+                <a href="#" class="text-white" style="text-decoration: none;">LinkedIn</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+            <p>
+                <i class="fas fa-home mr-3"></i><label for="" style="margin-left: 10px;">MBQ Hall, UET Lahore</label>
+            </p>
+            <p>
+                <i class="fas fa-envelope mr-3" style="margin-left: 32px;"></i><label for="" style="margin-left: 10px;">publicmail760@gmail.com</label>
+            </p>
+            <p>
+                <i class="fas fa-phone mr-3" style="margin-left: -27px;"></i><label for="" style="margin-left: 10px;">+92-325-4644823</label>
+            </p>
+            <p>
+                <i class="fas fa-print mr-3" style="margin-left: -60px;"></i><label for="" style="margin-left: 10px;">055 49935 54</label>
+            </p>
+          </div>
+          <h6>© 2020 Copyright: ecommerce-store.com</h6>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

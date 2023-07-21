@@ -1,0 +1,50 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cards span{
+    margin: 30px 10px;
+    width: 20%;
+    height: 30%;
+}
+.product{
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgb(41, 85, 178);
+}
+.nav-menus{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+.nav-menus li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav-menus li a:hover{
+    color: rgb(2, 166, 255);
+}
+.login{
+    margin-right: 10px; 
+    border:1px solid rgb(0, 132, 255); 
+    color: rgb(0, 132, 255);
+}
+.login:hover{
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: #fff;
+}
+.register:hover{
+    background-color: rgb(0, 132, 255);
+    border: none;
+    color: #fff;
+}
