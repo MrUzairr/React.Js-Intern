@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+body{
+    background-color: #0f0f0f;
+    color: #fff;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container .right .elipse{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .right .elipse #img1{
+    width: 302px;
+    padding-right: 50px;
+    margin-top: 30px;
+}
+.container .right .elipse #img2{
+    width: 200px;
+    margin-left: 400px;
+    margin-top: 220px;
+}
+.container .right .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #a294a4;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    position: absolute;
+    width: 380px;
+    height: 620px;
+    margin: 50px 130px;
+    padding: 80px 30px 30px 30px;
+    z-index: 1;
+}
+.container .right .form form > h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+.container .right .form form> .glad{
+    font-size: 12px;
+    font-weight: 60;
+    letter-spacing: 1px;
+    word-spacing: 1pxx;
+    padding: 5px 0;
+} 
+.container .right .form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.container .right .form form input{
+    padding: 12px 10px;
+    border: 2px solid #a294a4;
+    border-radius: 8px;
+    background-color: transparent;
+    margin-top: 10px;
+    color: #fff;
+}
+.container .right .form form input::placeholder,
+input::-webkit-input-placeholder{
+    color: #fff ;
+    font-size: 14px;
+}
+.container .right .form form >label{
+    font-size: 12px;
+    font-weight: 100;
+
+}
+.container .right .form form >label> input[type=checkbox]{
+    width: 10px;
+
+}
+.container .right .form form label>input[type="checkbox"]:checked{
+    background: linear-gradient(to right, #629dff,#795ee0,#7a39b6,#580576 ) !important;
+}
+.container .right .form form .btn1{
+    background: linear-gradient(to right, #629dff,#795ee0,#7a39b6,#580576 ) !important;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.container .right .form form .btn1:hover{
+    background: linear-gradient(to right, #7a39b6,#7a39b6,#7a39b6,#7a39b6 ) !important;
+    transform: scale(1.01);
+}
+
+.container .right .form form .btn{
+    background: linear-gradient(to right, #2e4cee,#262ed0,#1a1aae,#06107a ) !important;
+    border: none;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.container .right .form form .btn:hover{
+    background: linear-gradient(to right, #2e4cee,#262ed0,#1a1aae,#262ed0 ) !important;
+    transform: scale(1.01);
+}
+.container .right .form form > a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.container .right .form form .line>span{
+    float: left;
+    justify-content: space-between;
+    border-top: 2px solid #4c4c4c;
+    width: 100%;
+    margin-top: 45px;
+}
+.container .right .form form .line>p{
+    text-align: center;
+    justify-content: center;
+    margin-left: 128px;
+    margin-top: 34px;
+    background-color: #0f0f0f;
+    width: 60px;
+    position: absolute;
+}
+.container .right .form form .logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.container .right .form form .logos img{
+    margin-top: 10px;
+    padding: 12px 10px;
+    cursor: pointer;
+}
+.container .right .form form .logos #fb{
+    background-color: #1877f2;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+}
+.container .right .form form .account{
+    font-size: 12px;
+    font-weight: 10;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+
+}
+
+.container .right .form form .accounts{
+    font-size: 12px;
+    font-weight: 10;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.container .right .form form .account a{
+    text-decoration: none;
+    color: #fff;
+}
+.container .right .form form .accounts a{
+    text-decoration: none;
+    color: #fff;
+}
+.container .right .form form .accounts a:hover{
+    color: #629dff;
+}
+.container .right .form form .account a:hover{
+    color: #ea62ff;
+}
+.container .right .form form .condition{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container .right .form form .condition a{
+    font-size: 13px;
+    font-weight: 10;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 10px;
+}
+
+@media(max-width:480px){
+    .container{
+        width: 100%;
+        overflow-x: hidden;
+        height: 100vh;
+    }
+    .container .right .form{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0;
+        padding-right: 65px;
+        border: none;
+
+    }
+    .container .right .form form .line>p{
+        margin-left: 112px;
+
+    }
+    
+}

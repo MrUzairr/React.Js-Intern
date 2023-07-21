@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.assessment{
+    background-image: url('Images/3d-rendering-modern-loft-gym-fitness.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -50px;
+}
+
+.assessment .assessment-training{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;    
+    background-color: #fff;
+    width: 600px;
+    position: absolute;
+    left: -100%;
+    transition: all 2s;
+    border-radius: 0 50px 50px 0/0 40% 40% 0;
+
+}
+.assessment .assessment-training > div{
+    display: flex;
+    flex-direction: column;
+}
+.assessment .assessment-training div h2{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.assessment .assessment-training div > form > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0; 
+}
+.assessment .assessment-training div > form > div{
+    margin: 0 5px;
+    color: #000;
+}
+.assessment .assessment-training div > form > div input{
+    margin: 0 5px;
+}
+.assessment .assessment-training div > form > div label{
+    margin: 5px 10px;
+    margin-left: -100px;
+    text-align: left;
+    color: #000000;
+
+}
+.assessment .assessment-training div > form{
+    display: flex;
+    flex-direction: column;
+}
+.assessment .assessment-training div > form input::placeholder,
+input::-webkit-input-placeholder{
+    color: #000000 ;
+    font-size: 14px;
+}
+.assessment .assessment-training div form >input{
+    padding: 12px 20px;
+    border: none;
+    border: 1px solid #000000;
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 300px;
+}
+.assessment-btn{
+    padding: 8px 10px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+.assessment-btn:hover{
+    background-color: #000;
+    color: #fff;
+}
+@media(max-width:858px){
+    .assessment{
+        width: 100%;
+        height: 100vh;
+    }
+    .assessment .assessment-training{
+        border-radius: 0;
+        width: 100%;
+        opacity: 0.9;
+    }
+}
+@media(max-width:390px){
+    .assessment{
+        width: 100vh;
+        height: 100vh;
+    }
+    .assessment .assessment-training{
+        border-radius: 0;
+        width: 100%;
+        height: 100vh;
+        opacity: 0.9;
+    }
+}

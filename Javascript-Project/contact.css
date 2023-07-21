@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.contact{
+    background-image: url('Images/daniel-apodaca-WdoQio6HPVA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact-training{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: transparent;
+    width: 500px;
+    height: 85vh;
+    position: absolute;
+    border: 2px solid #fff;
+}
+.contact .contact-training div form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact .contact-training div h2{
+    font-size: 80px;
+    font-weight: 900;
+
+}
+.contact .contact-training div form input,textarea{
+    width: 100%;
+    padding: 10px 15px;
+    margin: 10px 15px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.contact .contact-training div form input:hover,textarea:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.contact .contact-training div form input[type=submit]{
+    border-radius: 35px;
+    font-weight: 900;
+    font-size: 25px;
+}
+.contact .contact-training div form input[type=submit]:hover{
+    background-color: #fff;
+    color: #000000;
+}
+.contact .contact-training div form input::placeholder,textarea::placeholder{
+    font-size: 20px;
+}
+
+.contact .contact-training > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+@media(max-width:858px){
+    body{
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+        height: 80vh;
+        overflow-x: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact .contact-training{
+        border: none;
+        width: 100%;
+        height: 80%;
+        opacity: 0.9;
+    }
+    .contact .contact-training div{
+        width: 90% !important;  
+        height: 70%;
+    }
+    .contact .contact-training div h2{
+        font-size: 50px;
+    }
+    .contact .contact-training div form input,textarea{
+        padding: 5px 10px;
+        width: 80%;
+    }
+}
+@media(max-width:390px){
+    .contact{
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact .contact-training{
+        border: none;
+        width: 100%;
+        height: 100%;
+        opacity: 0.9;
+    }
+    .contact .contact-training div{
+        width: 90% !important;  
+        height: 100%;
+    }
+}

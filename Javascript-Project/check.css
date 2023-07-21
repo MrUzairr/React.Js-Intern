@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+.navbar{
+    background-color: #0f0f0f;
+}
+body{
+    background-color: #fff !important;
+}
+@media(max-width:858px){
+    .navbar{
+        width: 100%;
+    }
+    .container-check{
+        width: 100% !important;
+
+    }
+    .content-check{
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    table{
+        width: 100vh;
+    }
+    table thead{
+        display: none;
+    }
+    table,table tbody,table tr,table td{
+        display: block;
+        width: 100%;
+        overflow-y: auto;
+    }
+}
+@media(max-width:390px){
+    .container-check{
+        width: 100vh !important;
+
+    }
+}
+.container-check{
+    background-color: #fff !important;
+    color: #000 !important;
+    width: 100%;
+    height: 100vh;
+}
+.content-check{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chechBTN{
+    font-size: 25px;
+    font-weight: 800;
+    color: #c21301;
+    border: 2px solid #c21301;
+    background-color: transparent;
+    padding: 8px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.chechBTN:hover{
+    background-color: #c21301;
+    color: #fff;
+}
+.main-row{
+
+    color: #f37221d4 ;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.row2{
+    color: #3333cc ;
+    text-transform: uppercase;
+
+}
+
+th,td{
+    border: 2px solid #000000;
+    padding: 10px 20px;
+    text-align: center;
+}
+th{
+    font-size: 20px;
+    font-weight: 700;
+}
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90% ;
+    
+}

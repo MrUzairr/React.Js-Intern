@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assessment.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:ital,wght@0,500;0,700;1,500&family=Space+Grotesk:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Assessment Page</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" class="logo"><img class="logo-dumb" src="Images/Group 10.png" alt="dumb-left"> FitFlex <img
+                class="logo-dumb" src="Images/Group 11.png" alt="dumb-right"></i>
+        </label>
+        <ul>
+            <li><a href="#" onclick="checkFunc()" style="display: none;" id="checkStatusID1">Check Status</a></li>
+            <li><a href="#" onclick="contactFunc()">Contact Us</a></li>
+            <button class="button-56" onclick="logoutFunc1()" id="logoutID1" role="button">Logout</button>
+        </ul>
+    </nav>
+
+    <!-- Body -->
+
+    <div class="assessment">
+        <div class="assessment-training" id="assessment-id">
+            <div>
+                <h2>Body composition</h2>
+                <form action="">
+                    <input type="number" placeholder="enter your weight" id="weight" required>
+                    <input type="number" placeholder="enter your height" id="height" required>
+                </form>
+            </div>
+            <div>
+                <h2>Skinfold Measurements</h2>
+                <form action="">
+                    <div>
+                        <label for="">Gender</label>
+                        <input type="radio" name="gender" value="Male" required>Male
+                        <input type="radio" name="gender" value="Female" required>Female
+                    </div>
+                    <input type="number" placeholder="enter your age" id="age" required>
+                    <input type="number" placeholder="enter your chest in (mm)" id="chest" required>
+                    <input type="number" placeholder="enter your abdominal in (mm)" id="abdominal" required>
+                    <input type="number" placeholder="enter your thigh in (mm)" id="thigh" required>
+                </form>
+            </div>
+            <div>
+                <h2>Muscular strength</h2>
+                <form action="">
+                    <input type="number" placeholder="enter your Push-ups in daily bases" id="pushup" required>
+                    <input type="number" placeholder="enter your Sit-ups in daily bases"id="situp" required>
+                    <input type="number" placeholder="enter your Bench-press in daily bases" id="bench" required>
+                </form>
+                <input type="submit" class="assessment-btn" onclick="checkData()" value="Submit Data">
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer -->
+
+        <div class="container-foot">
+            <div class="content-foot">
+                <div>
+                    <span><img src="Images/Group 10.png" alt="dumb-left"> Bodyshape <img src="Images/Group 11.png"
+                            alt="dumb-right"></span>
+                    <p>Unleash your inner athlete</p>
+                    <h4>Support Your Need To
+                        Much Fitness Goal</h4>
+                </div>
+                <div>
+                    <h2>Company</h2>
+                    <div>
+                        <a href="#" onclick="aboutFunc()">About</a>
+                        <a href="#" onclick="serviceFunc()">Services</a>
+                        <a href="#" onclick="homeFunc()">Careers</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Contact</h2>
+                    <div>
+                        <a href="#">Help \FAQ</a>
+                        <a href="#">Press</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>More</h2>
+                    <div>
+                        <a href="#" onclick="serviceFunc()">Program</a>
+                        <a href="#" onclick="serviceFunc()">Plan</a>
+                        <a href="#" onclick="serviceFunc()">Method</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Popular Tags</h2>
+                    <div class="col5">
+                        <a href="#" onclick="aboutFunc()">Abs</a>
+                        <a href="#" onclick="aboutFunc()">Workout</a>
+                        <a href="#" onclick="aboutFunc()">Nutrition</a>
+                        <a href="#" onclick="aboutFunc()">Boxing</a>
+                        <a href="#" onclick="aboutFunc()">Gym</a>
+                        <a id="facility" onclick="serviceFunc()" href="#">Facilities</a>
+                        <a href="#" onclick="serviceFunc()">Plans</a>
+                        <a href="#" onclick="serviceFunc()">Trainers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reserved">
+                <p><span>&copy</span> 2023 All Rights Reserved</p>
+            </div>
+           
+        </div>
+
+
+
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="assessment.js"></script>
+
+</body>
+
+</html>

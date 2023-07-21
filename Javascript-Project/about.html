@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Roboto:ital,wght@0,500;0,700;1,500&family=Space+Grotesk:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>About Us Page</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label for="" class="logo"><img class="logo-dumb" src="Images/Group 10.png" alt="dumb-left"> FitFlex <img
+                class="logo-dumb" src="Images/Group 11.png" alt="dumb-right"></i>
+        </label>
+        <ul>
+            <li><a href="#" onclick="homeFunc()">Home</a></li>
+            <li><a href="#" onclick="serviceFunc()">Services</a></li>
+            <li><a href="#"onclick="aboutFunc()">About Us</a></li>
+            <li><a href="#" onclick="contactFunc()">Contact Us</a></li>
+
+        </ul>
+    </nav>
+
+    <!-- Body -->
+
+    <div class="about">
+        <div class="about-left">
+            <img src="Images/muscular-man-looking-dumbbell.jpg" alt="">
+        </div>
+        <div class="about-right">
+            <div class="about-head">
+            <h1>Every day is a chance to become better</h1>
+            <p>Welcome to <b>FitFlex</b>, your premier destination for fitness and well-being. At FitFlex, we believe
+                that a healthy body and mind are the keys to a fulfilling life. We are dedicated to providing you with a
+                top-notch fitness experience that will empower you to reach your goals, exceed your limits, and
+                transform your life.</p>
+            </div>
+            <div class="about-box"> 
+                <div>
+                    <ul><li>Body and mind</li></ul>
+                    <p>Nurturing the connection between body and mind for optimal well-being.</p>
+                </div>
+                <div>
+                    <ul><li>Healthy life</li></ul>
+                    <p>Paving the path to a vibrant and fulfilling healthy life</p>
+                </div>
+                <div>
+                    <ul><li>strategies</li></ul>
+                    <p>Harnessing the strength of strategic planning for sustainable fitness achievements.</p>
+                </div>
+                <div>
+                    <ul><li>workout</li></ul>
+                    <p>Unleash your strength and push your limits with dynamic and transformative workouts.</p>
+                </div>
+            </div>
+            <div class="about-btn">
+
+                <input type="submit" value="Read More"> 
+            </div>
+        </div>
+    </div>
+
+       <!-- Footer -->
+
+       <div class="container-foot">
+        <div class="content-foot">
+            <div>
+                <span><img src="Images/Group 10.png" alt="dumb-left"> Bodyshape <img src="Images/Group 11.png"
+                        alt="dumb-right"></span>
+                <p>Unleash your inner athlete</p>
+                <h4>Support Your Need To
+                    Much Fitness Goal</h4>
+            </div>
+            <div>
+                <h2>Company</h2>
+                <div>
+                    <a href="#" onclick="aboutFunc()">About</a>
+                    <a href="#" onclick="serviceFunc()">Services</a>
+                    <a href="#" onclick="homeFunc()">Careers</a>
+                </div>
+            </div>
+            <div>
+                <h2>Contact</h2>
+                <div>
+                    <a href="#">Help \FAQ</a>
+                    <a href="#">Press</a>
+                </div>
+            </div>
+            <div>
+                <h2>More</h2>
+                <div>
+                    <a href="#" onclick="serviceFunc()">Program</a>
+                    <a href="#" onclick="serviceFunc()">Plan</a>
+                    <a href="#" onclick="serviceFunc()">Method</a>
+                </div>
+            </div>
+            <div>
+                <h2>Popular Tags</h2>
+                <div class="col5">
+                    <a href="#" onclick="aboutFunc()">Abs</a>
+                    <a href="#" onclick="aboutFunc()">Workout</a>
+                    <a href="#" onclick="aboutFunc()">Nutrition</a>
+                    <a href="#" onclick="aboutFunc()">Boxing</a>
+                    <a href="#" onclick="aboutFunc()">Gym</a>
+                    <a id="facility" onclick="serviceFunc()" href="#">Facilities</a>
+                    <a href="#" onclick="serviceFunc()">Plans</a>
+                    <a href="#" onclick="serviceFunc()">Trainers</a>
+                </div>
+            </div>
+        </div>
+        <div class="reserved">
+            <p><span>&copy</span> 2023 All Rights Reserved</p>
+        </div>
+       
+    </div>
+
+
+
+
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <script src="about.js"></script>
+
+</body>
+
+</html>
