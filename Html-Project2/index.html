@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Students Registration</title>
+    <style>
+      .top {
+        text-align: center;
+        margin: 10px;
+      }
+      .heading {
+        background-color: blue;
+        color: #fff;
+        margin: 10px 350px;
+        padding: 10px 20px;
+        border-radius: 50px;
+        border: 10px solid rgb(12, 12, 97);
+      }
+      .form {
+        font-size: 20px;
+        font-weight: 520;
+        background-color: rgb(222, 229, 229);
+        position: absolute;
+        width: 50%;
+        left: 25%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin-top: 3%;
+        color: rgb(4, 4, 148);
+      }
+      .form input {
+        font-size: 16px;
+        margin-left: 20px;
+        margin: 10px;
+        padding: 5px;
+        border-color: rgb(6, 130, 254);
+      }
+      .form input::-webkit-input-placeholder{
+        color: rgb(162, 162, 250);
+      }
+      .form .button {
+        background-color: blue;
+        color: #fff;
+        border-radius: 25px;
+        border: none;
+        padding: 10px 20px;
+        font-weight: 600;
+      }
+      .form .button:hover {
+        background-color: rgb(81, 81, 248);
+      }
+      .form label {
+        margin-right: 10px;
+      }
+      .form select {
+        font-size: 18px;
+        padding: 5px 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <img src="/Images/pic2.jpg" width="200px" height="200px" alt="UET Logo" />
+      <h1 class="heading">University of Engineering and Technology Lahore</h1>
+      <div class="form">
+        <h2>Student Registration</h2>
+        <form action="">
+          <label for="">Student Name</label>
+          <input
+            type="text"
+            style="margin-left: 34px"
+            placeholder="Enter your name"
+          /><br />
+          <label for="" style="margin-left: 0px">Father Name</label>
+          <input
+            type="text"
+            style="margin-left: 44px"
+            placeholder="Enter your father name"
+          /><br />
+          <label for="" style="margin-left: -1px">CNIC</label>
+          <input
+            type="number"
+            style="margin-left: 100px"
+            placeholder="Enter your CNIC"
+          /><br />
+          <label for="" style="margin-left: -1px">Contact Number</label>
+          <input
+            type="number"
+            style="margin-left: 14px"
+            placeholder="Enter your Phone No"
+          /><br />
+          <label for="" style="margin-left: -1px">FSc Marks</label>
+          <input
+            type="number"
+            style="margin-left: 60px"
+            placeholder="Enter your FSc Marks"
+          /><br />
+          <label for="">Entry Test Marks</label>
+          <input
+            type="number"
+            style="margin-left: 5px"
+            placeholder="Enter Entry Test Marks"
+          /><br />
+          <label for="" style="margin-left: -52px">Gender:</label>
+          <input
+            type="radio"
+            style="margin-left: 78px"
+            name="grpGender"
+            value="Male"
+          />Male
+          <input
+            type="radio"
+            style="margin-left: 42px"
+            name="grpGender"
+            value="Female"
+          />Female<br />
+          <label for="">Student Remarks</label>
+          <textarea
+            name=""
+            id=""
+            cols="22"
+            rows="5"
+            style="font-size: 18px"
+            placeholder="Enter your remarks"
+          ></textarea
+          ><br />
+          <label for="">Student Preferences</label>
+          <select name="" id="" style="margin-left: -5px">
+            <option value="">Computer Science</option>
+            <option value="">Computer Engineering</option>
+            <option value="">Electrical Engineering</option></select
+          ><br />
+          <input class="button" type="button" value="Submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
