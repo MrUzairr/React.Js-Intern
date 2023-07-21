@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Student Record</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3>University Student Registration</h3>
+      <form action="">
+        <input type="text"id="Sname"  placeholder="Enter Student Name" />
+        <input type="text" placeholder="Enter Student Roll No" />
+        <input type="number" id="matric" placeholder="Enter Student Matric Marks" />
+        <input type="number" id="inter" placeholder="Enter Student FSc Marks" />
+        <input type="number" id="ecat" placeholder="Enter Student Entry Test Marks" />
+        <input type="submit" onclick="myFunction()"  name="submit" value="submit" />
+      </form>
+      <div class="result">
+        <h2>Result is below</h2>
+        <div class="output">
+          <h4 id="name"></h4>
+          <h4 id="aggregate"></h4>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
