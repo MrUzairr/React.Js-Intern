@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+@media(max-width:505px){
+  .homepage{
+    width: 100%;
+    overflow-y: auto;
+  }
+  .formData{
+    width: 350px !important;
+    margin-bottom: 30px;
+  }
+
+}
+@media(max-width:355px){
+  .formData{
+    width: 300px !important;
+  }
+}
+@media(max-width:305px){
+  .formData{
+    width: 260px !important;
+  }
+}
+@media(max-width:260px){
+  .formData{
+    width: 200px !important;
+  }
+}
+@media(max-width:200px){
+  .formData{
+    width: 150px !important;
+  }
+}
+@media(max-width:150px){
+  .formData{
+    width: 100px !important;
+  }
+}
+@media(max-width:100px){
+  .formData{
+    width: 50px !important;
+  }
+}
+label{
+  font-size: 18px;
+}
+.homepage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homepage h1{
+  margin-top: 20px;
+}
+.formData{
+  margin-top: 40px;
+  width: 500px;
+  padding: 30px 30px;
+  border-radius: 10px;
+  box-shadow: #7676768b 0 0 10px;
+}
