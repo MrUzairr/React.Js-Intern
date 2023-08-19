@@ -1,0 +1,44 @@
+.row{
+    margin: auto 150px;
+    padding: 50px 0;
+}
+.footer1{
+    color: #ffffff;
+}
+.footer-logo{
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 30px;
+    color: #fff;
+}
+.web-tabs{
+    display: flex;
+    flex-direction: column;
+}
+.web-tabs-txt{
+    color: #d0cece;
+    text-decoration: none;
+    transition: all 0.4s;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;
+}
+.social-icons > div{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.social-icons > div:hover{
+    color: rgb(247,187,7);
+}
+.contact-data{
+    display: flex;
+    flex-direction: row;
+    line-height: 18px;
+}
+.contact-data-txt{
+    margin-left: 10px;
+}

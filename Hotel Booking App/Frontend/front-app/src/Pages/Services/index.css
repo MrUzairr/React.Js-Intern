@@ -1,0 +1,40 @@
+.service-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    text-align: center;
+}
+.service-icons > div{
+    padding: 20px;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    width: 250px;
+    cursor: pointer;
+}
+.service-icons div:hover{
+    border: none;
+    border-radius: 0;
+    background-color: #114b9c;
+}
+
+.service-icon{
+    padding: 10px 40px;
+    font-size: 15px;
+    color: #114b9c;
+}
+.service-icon:hover{
+    border: 1px solid #fff !important;
+    color: #ffffff;
+    transition: all 1s;
+
+}
+
+.service-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.service-img{
+    border-radius: 20px 0 20px 0;
+}

@@ -1,0 +1,144 @@
+.main-carusel{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: auto 150px;
+}
+.carusel-container{
+    background-image:url('../../../public/hotelPic.jpg');
+    position:static;
+    background-position:center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    height:600px;
+    width:100%;
+
+}
+.carusel-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 150px;
+}
+.carusel-content h1{
+    font-size: 40px;
+    margin-top: 220px;
+    margin-right: 480px;
+    color: #f6eb21;
+    text-shadow: 4px 5px 4px rgba(248, 29, 29, 0.55);
+}
+.carusel-content h4{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-right: 250px;
+    font-weight: 500;
+    color: #fdeeb0;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.964);
+}
+.carusel-content input[type='submit']{
+    font-size: 20px;
+    width: 280px;
+    margin-top: 20px;
+    padding: 12px 10px;
+    background-color: #0a1e9e;
+    color: #fff;
+    border: none;
+}
+.carusel-content input[type='submit']:hover{
+    background-color: #3c4aa2;
+    cursor: pointer;
+}
+@media(max-width:768px){
+    .main-carusel{
+        width: 100% !important;
+    }
+    .carusel-container{
+        width: 770px !important;
+        background-size: 100% !important;
+        background-position: center !important;
+    }
+    .carusel-content h1{
+        font-size: 26px;
+        margin-top: 240px;
+        margin-right: 0 !important;
+    }
+    .carusel-content h4{
+        font-size: 20px;
+        margin-top: 20px;
+        margin-right: 0 !important;
+    }
+    .carusel-content input[type='submit']{
+        font-size: 18px;
+        width: 250px;
+    }
+
+    
+}
+@media(max-width:624px){
+    .carusel-content{
+        margin: auto 60px !important;
+    }
+    .carusel-content h1{
+        margin-right: 150px !important;
+    }
+    .carusel-content input[type='submit']{
+        font-size: 18px;
+        width: 250px;
+    }
+}
+@media(max-width:532px){
+    .carusel-container{
+        background-image:url('../../../public/backImage.png');
+    }
+    .carusel-content{
+        margin: auto 50px !important;
+    }
+    .carusel-content h1{
+        font-size: 22px;
+        margin-top: 220px;
+        width: 400px;
+    }
+    .carusel-content h4{
+        font-size: 18px;
+        margin-top: 20px;
+        margin-right: 0 !important;
+    }
+    .carusel-content input[type='submit']{
+        font-size: 16px;
+        width: 220px;
+    }
+}
+@media(max-width:468px){
+    .carusel-content{
+        margin: auto 40px !important;
+    }
+    .carusel-content h1{
+        font-size: 20px;
+        margin-top: 220px;
+        width: 350px;
+    }
+    .carusel-content h4{
+        font-size: 16px;
+        margin-top: 20px;
+        width: 380px;
+    }
+    .carusel-content input[type='submit']{
+        font-size: 14px;
+        width: 200px;
+    }
+}
+@media(max-width:432px){
+    .carusel-content{
+        margin: auto 30px !important;
+    }
+    .carusel-content h1{
+        font-size: 17px;
+        margin-top: 220px;
+        width: 320px;
+    }
+    .carusel-content h4{
+        font-size: 14px;
+        margin-top: 20px;
+        width: 380px;
+    }
+}
